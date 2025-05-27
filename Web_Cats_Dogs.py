@@ -70,6 +70,7 @@ elif tab =='Behind The Scenes':
     {"Factors": "Macro Average", "Precision": "0.60", "Recall": "0.60", "F1-Score": "0.60","Support":"4990"},
     {"Factors": "Wieghted Average", "Precision": "0.60", "Recall":"0.60", "F1-Score": "0.60","Support":"4990"},
     ]
+    st.markdown("## Classification Report")
     invoice_df = pd.DataFrame(data)
     ui.table(data=invoice_df, maxHeight=300)
     st.markdown('## Colab Notebook')
