@@ -62,8 +62,8 @@ elif tab =='Behind The Scenes':
     yaxis_title="True Label",
     annotations=annotations
 )
-    st.markdown('## Classification Report')
     st.plotly_chart(fig)
+    st.markdown('## Classification Report')
     data = [
     {"Factors": "Cats", "Precision": "0.61", "Recall": "0.59", "F1-Score": "0.60","Support":"2547"},
     {"Factors": "Dogs", "Precision": "0.59", "Recall": "0.61", "F1-Score": "0.60","Support":"2443"},
