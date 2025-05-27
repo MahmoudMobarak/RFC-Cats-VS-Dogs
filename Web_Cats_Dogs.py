@@ -33,7 +33,7 @@ elif tab =='Behind The Scenes':
         ui.metric_card(title="Total traing data size", content="3 Billion different values", description="Big Data", key="card12")
     cols=st.columns(2)
     with cols[0]:
-        ui.metric_card(title="Accuracy", content="62.5%", description="Good Accuracy", key="card124")
+        ui.metric_card(title="Accuracy", content="60%", description="Decent Accuracy", key="card124")
     with cols[1]:
         ui.metric_card(title="Algrothim(Ai)", content="Random Forest Classfier", description="n_estimators=1000", key="card232")
     labels = ["Cat", "Dog"]
