@@ -7,7 +7,7 @@ from skimage.io import imread
 import plotly.graph_objects as go
 import numpy as np
 cm=np.array([[1494,1053],[950,1493]])
-with open(r"C:\Users\mahmo\Desktop\VS\SVM_Cats_VS_Dogs\model_rfc_best.pkl", "rb") as file:
+with open(r"model_rfc_best.pkl", "rb") as file:
     model = pickle.load(file)
 tab=ui.tabs(options=["Predictor","Behind The Scenes"], key="tab1")
 if tab == 'Predictor':
