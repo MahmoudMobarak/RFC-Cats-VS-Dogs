@@ -70,6 +70,8 @@ elif tab =='Behind The Scenes':
     {"Factors": "Macro Average", "Precision": "0.60", "Recall": "0.60", "F1-Score": "0.60","Support":"4990"},
     {"Factors": "Wieghted Average", "Precision": "0.60", "Recall":"0.60", "F1-Score": "0.60","Support":"4990"},
     ]
+    invoice_df = pd.DataFrame(data)
+    ui.table(data=invoice_df, maxHeight=300)
     st.markdown('## Colab Notebook')
     ui.link_button(text="Go To Colab Notebook", url="https://colab.research.google.com/drive/1BU2xRrj_gu7u6Djhyx6ubA5fOVou-D8r?usp=sharing", key="link_btn")
     st.markdown('## Github')
